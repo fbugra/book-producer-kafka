@@ -1212,7 +1212,6 @@ public final class Utils {
      * 2. You can turn a stream of Entries directly into a Map without having to mess with a key function
      *    and a value function. In particular, this is handy if all you need to do is apply a filter to a Map's entries.
      *
-     *
      * One thing to be wary of: These types are too "distant" for IDE type checkers to warn you if you
      * try to do something like build a TreeMap of non-Comparable elements. You'd get a runtime exception for that.
      *
